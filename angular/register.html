@@ -1,0 +1,11 @@
+<div class="form" ng-controller="RegisterController">
+    <h1>REGISTER HERE</h1>
+    <p>Username:</p>
+    <input type="text" ng-model="user.username" placeholder="Name Here">
+    <p>Password:</p>
+    <input type="password" ng-model="user.password" placeholder="Password Here">
+    <p>Confirm Password:</p>
+    <input type="password" ng-model="user.confirmPassword" placeholder="Confirm Password Here">
+    <input type="submit" value="REGISTER" ng-click="register()">
+    <p>Already have an account? <a href="#!/">Login here</a></p>
+</div>
